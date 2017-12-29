@@ -3,7 +3,7 @@
     <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
   </div>
   <div class="form-group col-sm-3">
-    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+    <ngx-date-picker [(selectedDate)]="dateExample"></ngx-date-picker>
   </div>
   <div class="form-group">
     <div class="checkbox">
@@ -13,4 +13,5 @@
   <div class="form-group">
     <button type="submit" class="btn btn-primary">Send invitation</button>
   </div>
+  <notification-bar></notification-bar>
 </form>

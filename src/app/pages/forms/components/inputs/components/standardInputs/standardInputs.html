@@ -8,6 +8,11 @@
     <input type="password" class="form-control" id="input02" placeholder="Password">
   </div>
   <div class="form-group">
+    <label for="input05">Date</label>
+    <ngx-date-picker [(selectedDate)]="dateExample"></ngx-date-picker>
+  </div>
+  
+  <div class="form-group">
     <label for="input03">Rounded Corners</label>
     <input type="text" class="form-control form-control-rounded" id="input03" placeholder="Rounded Corners">
   </div>
@@ -32,4 +37,6 @@
   <div class="form-group">
     <input type="text" class="form-control form-control-lg" id="input4" placeholder="Large Input">
   </div>
+
+
 </form>

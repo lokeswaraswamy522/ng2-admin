@@ -46,7 +46,7 @@ $card-header-font-size: 16px;
   &.with-scroll {
     .card-body {
       height: calc(100% - #{$card-title-height});
-      overflow-y: auto;
+      overflow-y: none;
       flex: 0 1 auto;
     }
   }

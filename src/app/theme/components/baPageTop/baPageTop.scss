@@ -18,9 +18,14 @@
     }
   }
 
+  .page-top.scrolled {
+    background-color: rgba(0,0,0,.85);
+  }
+
   .blur {
     .page-top.scrolled {
-      background-color: rgba(black, 0.85)
+      background-color: rgba(0,0,0,.85);
+      
     }
   }
 

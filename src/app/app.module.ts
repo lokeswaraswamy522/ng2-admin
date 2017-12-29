@@ -16,6 +16,9 @@ import { AppState, InternalStateType } from './app.service';
 import { GlobalState } from './global.state';
 import { NgaModule } from './theme/nga.module';
 import { PagesModule } from './pages/pages.module';
+import { NotificationBarModule } from 'ngx-notification-bar/release'; 
+
+
 
 
 // Application wide providers
@@ -47,7 +50,8 @@ export type StoreType = {
     NgaModule.forRoot(),
     NgbModule.forRoot(),
     PagesModule,
-    routing
+    routing,
+    NotificationBarModule,
   ],
   providers: [ // expose our Services and Providers into Angular's dependency injection
     APP_PROVIDERS

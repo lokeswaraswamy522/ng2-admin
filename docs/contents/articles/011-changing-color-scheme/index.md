@@ -123,6 +123,6 @@ That's basically it! Right now your admin application should look like this:
 ![](new-color-scheme.png)
 
 For further reference, please look in
-- Colorscheme scss file (`src/app/theme/sass/conf/colorScheme/_ng2.scss`, `src/app/theme/sass/conf/colorScheme/_mint.scss` and `src/app/theme/sass/conf/colorScheme/_blur.scss`)
+- Colorscheme scss file (`src/app/theme/sass/conf/colorScheme/_mint.scss`, `src/app/theme/sass/conf/colorScheme/_mint.scss` and `src/app/theme/sass/conf/colorScheme/_blur.scss`)
 - `src/app/theme/theme.configProvider.js` to understand which javascript colors can be changed
 - If you want to know how to change the theme to blur, read the [following article](/ng2-admin/articles/014-switch-to-blur-theme/)

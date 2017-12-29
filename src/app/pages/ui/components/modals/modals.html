@@ -8,5 +8,12 @@
         <button class="btn btn-danger" (click)="childModalShow()">Open child modal</button>
       </ba-card>
     </div>
+    <div class="col-md-12">
+      <ba-card cardTitle="Notifications" class="modal-buttons">
+          <button type="button" class="btn btn-success" (click)="showSuccessMsg()">Success Notification</button>
+          <button type="button" class="btn btn-info" (click)="showInfoMsg()">Info Notification</button>
+          <button type="button" class="btn btn-warning" (click)="showWarningMsg()">Warning Notification</button>
+          <button type="button" class="btn btn-danger" (click)="showErrorMsg()">Danger Notification</button>
+        </ba-card>
   </div>
 </div>

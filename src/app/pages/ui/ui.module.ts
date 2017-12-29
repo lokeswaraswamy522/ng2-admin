@@ -24,6 +24,8 @@ import { DropdownButtons } from './components/buttons/components/dropdownButtons
 import { GroupButtons } from './components/buttons/components/groupButtons';
 import { IconsService } from './components/icons/icons.service';
 import { DefaultModal } from './components/modals/default-modal/default-modal.component';
+// import { NotificationBarModule } from 'ngx-notification-bar/release'; 
+import { NotifyModule } from 'ngx-notify';
 
 
 @NgModule({
@@ -34,7 +36,13 @@ import { DefaultModal } from './components/modals/default-modal/default-modal.co
     NgbDropdownModule,
     NgbModalModule,
     SlimLoadingBarModule.forRoot(),
-    routing
+    routing,
+    NotifyModule.forRoot({
+      options: { },
+      notify: {
+      }
+  }),
+    // NotificationBarModule,
   ],
   declarations: [
     Buttons,
@@ -58,7 +66,7 @@ import { DefaultModal } from './components/modals/default-modal/default-modal.co
     DefaultModal
   ],
   providers: [
-    IconsService
+    IconsService,
   ]
 })
 export class UiModule {
